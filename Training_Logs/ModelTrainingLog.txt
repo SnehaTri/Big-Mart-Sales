@@ -1,0 +1,75 @@
+2023-10-19/18:57:05		Start of Training
+2023-10-19/18:57:05		Entered the get_data method of the Data_Getter class
+2023-10-19/18:57:05		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-19/18:57:05		Entered the is_null_present method of the Preprocessor class
+2023-10-19/18:57:05		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-10-19/18:57:05		Entered the separate_label_feature method of the Preprocessor class
+2023-10-19/18:57:05		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-10-19/18:57:05		Entered the remove_columns method of the Preprocessor class
+2023-10-19/18:57:05		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-10-19/18:57:05		Entered the elbow_plot method of the KMeansClustering class
+2023-10-19/18:57:11		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2023-10-19/18:57:11		Entered the create_clusters method of the KMeansClustering class
+2023-10-19/18:57:11		Entered the save_model method of the File_Operation class
+2023-10-19/18:57:11		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2023-10-19/18:57:11		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2023-10-19/18:57:11		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-19/18:57:11		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-19/18:57:11		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-19/18:57:11		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-19/18:57:11		Entered the get_best_model method of the Model_Finder class
+2023-10-19/18:57:11		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2023-10-19/18:57:11		Exception occured in get_best_params_for_linearReg method of the Model_Finder class. Exception message:  Invalid parameter 'normalize' for estimator LinearRegression(). Valid parameters are: ['copy_X', 'fit_intercept', 'n_jobs', 'positive'].
+2023-10-19/18:57:11		LinearReg Parameter tuning  failed. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2023-10-19/18:57:11		Exception occured in get_best_model method of the Model_Finder class. Exception message:  
+2023-10-19/18:57:11		Model Selection Failed. Exited the get_best_model method of the Model_Finder class
+2023-10-19/18:57:11		Unsuccessful End of Training
+2023-10-19/19:11:04		Start of Training
+2023-10-19/19:11:04		Entered the get_data method of the Data_Getter class
+2023-10-19/19:11:04		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-10-19/19:11:04		Entered the is_null_present method of the Preprocessor class
+2023-10-19/19:11:04		Finding missing values is a success.Data written to the null values file. Exited the is_null_present method of the Preprocessor class
+2023-10-19/19:11:04		Entered the separate_label_feature method of the Preprocessor class
+2023-10-19/19:11:04		Label Separation Successful. Exited the separate_label_feature method of the Preprocessor class
+2023-10-19/19:11:04		Entered the remove_columns method of the Preprocessor class
+2023-10-19/19:11:04		Column removal Successful.Exited the remove_columns method of the Preprocessor class
+2023-10-19/19:11:04		Entered the elbow_plot method of the KMeansClustering class
+2023-10-19/19:11:06		The optimum number of clusters is: 3 . Exited the elbow_plot method of the KMeansClustering class
+2023-10-19/19:11:06		Entered the create_clusters method of the KMeansClustering class
+2023-10-19/19:11:06		Entered the save_model method of the File_Operation class
+2023-10-19/19:11:06		Model File KMeans saved. Exited the save_model method of the Model_Finder class
+2023-10-19/19:11:06		succesfully created 3clusters. Exited the create_clusters method of the KMeansClustering class
+2023-10-19/19:11:06		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:06		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:06		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:06		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:06		Entered the get_best_model method of the Model_Finder class
+2023-10-19/19:11:06		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2023-10-19/19:11:07		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'n_jobs': 1, 'positive': True}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2023-10-19/19:11:07		Entered the RandomForestReg method of the Model_Finder class
+2023-10-19/19:11:21		RandomForestReg best params: {'bootstrap': False, 'max_features': 'log2', 'min_samples_split': 2, 'n_estimators': 10}. Exited the RandomForestReg method of the Model_Finder class
+2023-10-19/19:11:21		Entered the save_model method of the File_Operation class
+2023-10-19/19:11:21		Model File RandomForestRegressor1 saved. Exited the save_model method of the Model_Finder class
+2023-10-19/19:11:21		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:21		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:21		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:21		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:21		Entered the get_best_model method of the Model_Finder class
+2023-10-19/19:11:21		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2023-10-19/19:11:21		LinearRegression best params: {'copy_X': True, 'fit_intercept': False, 'n_jobs': 1, 'positive': True}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2023-10-19/19:11:21		Entered the RandomForestReg method of the Model_Finder class
+2023-10-19/19:11:44		RandomForestReg best params: {'bootstrap': False, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 20}. Exited the RandomForestReg method of the Model_Finder class
+2023-10-19/19:11:44		Entered the save_model method of the File_Operation class
+2023-10-19/19:11:44		Model File RandomForestRegressor0 saved. Exited the save_model method of the Model_Finder class
+2023-10-19/19:11:44		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:44		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:44		Entered the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:44		scaling for numerical values successful. Exited the scale_numerical_columns method of the Preprocessor class
+2023-10-19/19:11:44		Entered the get_best_model method of the Model_Finder class
+2023-10-19/19:11:44		Entered the get_best_params_for_linearReg method of the Model_Finder class
+2023-10-19/19:11:45		LinearRegression best params: {'copy_X': True, 'fit_intercept': True, 'n_jobs': 1, 'positive': True}. Exited the get_best_params_for_linearReg method of the Model_Finder class
+2023-10-19/19:11:45		Entered the RandomForestReg method of the Model_Finder class
+2023-10-19/19:12:08		RandomForestReg best params: {'bootstrap': False, 'max_features': 'sqrt', 'min_samples_split': 2, 'n_estimators': 30}. Exited the RandomForestReg method of the Model_Finder class
+2023-10-19/19:12:08		Entered the save_model method of the File_Operation class
+2023-10-19/19:12:08		Model File RandomForestRegressor2 saved. Exited the save_model method of the Model_Finder class
+2023-10-19/19:12:08		Successful End of Training

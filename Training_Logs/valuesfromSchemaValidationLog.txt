@@ -1,0 +1,4 @@
+2023-10-19/18:34:43		LengthOfDateStampInFile:: 8	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 33
+
+2023-10-19/19:15:27		LengthOfDateStampInFile:: 8	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 32
+
